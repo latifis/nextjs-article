@@ -1,0 +1,36 @@
+{
+  "site": {
+    "title": "The Pancasila Voice Journal",
+    "base_url": "/",
+    "favicon": "/images/ugm7.png",
+    "logo": "/images/ugm8.png",
+    "logo_width": "200",
+    "logo_height": "48",
+    "logo_text": "The Pancasila Voice"
+  },
+
+  "settings": {
+    "pagination": 4,
+    "summary_length": 200,
+    "blog_folder": "blogs"
+  },
+
+  "nav_button": {
+    "enable": true,
+    "label": "Get Started",
+    "link": "/contact"
+  },
+
+  "params": {
+    "contact_form_action": "",
+    "tag_manager_id": "",
+    "footer_content": "Bulaksumur Yogyakarta 55281</br>Email: [info@ugm.ac.id](mailto:info@ugm.ac.id)</br>Phone: [+62(274)588688](tel:+62-274-588688)</br>Fax: [+62(274)565223](tel:+62-274-565223)</br>WhatsApp: [+628112869988](https://wa.me/+628112869988)",
+    "copyright": "&copy; The Pancasila Voice Journal of [Universitas Gajah Mada](https://ugm.ac.id/)"
+  },
+
+  "metadata": {
+    "meta_author": "Themefisher",
+    "meta_image": "",
+    "meta_description": "A SAAS template for nextjs"
+  }
+}
