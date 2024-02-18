@@ -87,6 +87,6 @@ call_to_action:
   image: '/images/cta.svg'
   button:
     enable: true
-    label: "Contact Us"
-    link: "/contact"
+    label: "Login Now"
+    link: "/login"
 ---

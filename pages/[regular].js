@@ -4,6 +4,8 @@ import Contact from "@layouts/Contact";
 import Default from "@layouts/Default";
 import Faq from "@layouts/Faq";
 import Pricing from "@layouts/Pricing";
+import Login from "@layouts/Login";
+import Register from "@layouts/Register";
 import { getRegularPage, getSinglePage } from "@lib/contentParser";
 
 // for all regular pages
@@ -12,6 +14,12 @@ const RegularPages = ({ data }) => {
     data.frontmatter;
   const { content } = data;
 
+  if (data.frontmatter.layout === "login") {
+    return <Login data={data} />;
+  } else if (data.frontmatter.layout === "register") {
+    return <Register data={data} />;
+  }
+  
   return (
     <Base
       title={title}
